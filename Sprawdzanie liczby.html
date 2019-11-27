@@ -1,0 +1,54 @@
+<html>
+ <head>
+    <script>
+       function funkcja() {
+          
+          var licz = document.getElementById("liczba").value;
+          if (licz < 0) { 
+             document.getElementById("wynik").innerHTML = "ujemna"
+          } 
+          
+          else if (licz > 0) { document.getElementById("wynik").innerHTML = "dodatnia";
+          
+            } else if (licz ==0) {
+                   document.getElementById("wynik").innerHTML = 0;
+            } else {document.getElementById("wynik").innerHTML = "to nie jest liczba";
+          }
+       }
+          
+          
+    </script>
+ </head>
+ 
+ <body>
+ 
+    <input type ="text" id="liczba">
+    <input type ="submit" value = "Sprawdź" onClick = "funkcja()"/>
+    
+    <div id ="wynik"></div>
+    
+ </body>
+ 
+</html>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  <!-- sprawdz średnik w onload -->
